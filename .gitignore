@@ -1,0 +1,46 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs and runtime output
+logs/
+app/logs/
+scripts/logs/
+*.log
+
+# Local IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated data / vector stores
+data/vectorstore/
+data/chroma/
+*.db
+*.sqlite
+*.sqlite3
+
+# Large tutorial attachments and duplicated source exports
+图片和附件/
+知行项目.md
+
+# Docker/local build noise
+*.pid
+*.tmp
